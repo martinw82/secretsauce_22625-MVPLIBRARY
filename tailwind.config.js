@@ -1,0 +1,62 @@
+/** @type {import('tailwindcss').Config} */
+export default {
+  content: ['./index.html', './src/**/*.{js,ts,jsx,tsx}'],
+  theme: {
+    extend: {
+      colors: {
+        primary: {
+          50: '#fef7ee',
+          100: '#fdedd6',
+          200: '#fad8ac',
+          300: '#f7be77',
+          400: '#f39940',
+          500: '#f17c1a',
+          600: '#e2610f',
+          700: '#bc4a0e',
+          800: '#953a13',
+          900: '#773213',
+          950: '#411708',
+        },
+        secondary: {
+          50: '#f0fdfa',
+          100: '#ccfbf1',
+          200: '#99f6e4',
+          300: '#5eead4',
+          400: '#2dd4bf',
+          500: '#14b8a6',
+          600: '#0d9488',
+          700: '#0f766e',
+          800: '#115e59',
+          900: '#134e4a',
+          950: '#042f2e',
+        },
+        accent: {
+          50: '#fffbeb',
+          100: '#fef3c7',
+          200: '#fde68a',
+          300: '#fcd34d',
+          400: '#fbbf24',
+          500: '#f59e0b',
+          600: '#d97706',
+          700: '#b45309',
+          800: '#92400e',
+          900: '#78350f',
+          950: '#451a03',
+        },
+        success: '#10b981',
+        warning: '#f59e0b',
+        error: '#ef4444',
+      },
+      fontFamily: {
+        sans: ['Inter', 'system-ui', 'sans-serif'],
+        serif: ['Georgia', 'serif'],
+      },
+      animation: {
+        'spin-slow': 'spin 3s linear infinite',
+        'bounce-gentle': 'bounce 2s infinite',
+        'pulse-gentle': 'pulse 3s infinite',
+      },
+    },
+  },
+  plugins: [],
+};
